@@ -481,8 +481,10 @@
         <div style="text-align: center; font-size: 200%; margin-top: 1em">S'inscrire</div>
         <div style="display: flex; align-content: center; justify-content: center;">
             <form style="display: flex; flex-direction: column; padding: 2em 3em 3em; width: 24vw;">
-                <label>Nom d'utilisateur : </label>
-                <input type="text">
+                <label>Nom : </label>
+                <input name="name" type="text">
+                <label>Prénom : </label>
+                <input name="surname" type="text">
                 <label>Courriel :</label>
                 <input name="email" type="email">
                 <label>Mot de passe :</label>
