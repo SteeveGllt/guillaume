@@ -1,132 +1,1724 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="fr" dir="ltr"
+      prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"
+      class="js js no-touch csstransforms3d csstransitions" style="">
+<head>
+    <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Drupal 7 (http://drupal.org)">
+    <link rel="shortcut icon" href="https://www.pepinieres-guillaume.com/sites/default/files//logo_0_0.png"
+          type="image/png">
+    <title>Pépinières Guillaume</title>
+    <link type="text/css" rel="stylesheet"
+          href="https://www.pepinieres-guillaume.com/sites/default/files//css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css"
+          media="all">
+    <link type="text/css" rel="stylesheet"
+          href="https://www.pepinieres-guillaume.com/sites/default/files//css/css_JCY_XIQAlFCN_AbvjWfbNrXAa03IOm7FrXUxsDgkibE.css"
+          media="all">
+    <link type="text/css" rel="stylesheet"
+          href="https://www.pepinieres-guillaume.com/sites/default/files//css/css_vXjBpwyk7kF68InttFSjEvqcXkp6Y2kxw7alH-pAk8o.css"
+          media="all">
+    <style>.md-objects .md-object.md-layer-1-0-0 {
+            z-index: 998 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 5.8333333333333em;
+            font-weight: 400;
+            font-family: "Playfair Display";
+        }
 
-        <title>Laravel</title>
+        .md-objects .md-object.md-layer-1-0-1 {
+            z-index: 999 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 4.1666666666667em;
+            font-weight: 400;
+            font-family: "Playfair Display";
+        }
 
-        <!-- Fonts -->
-        <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        .md-objects .md-object.md-layer-1-0-2 {
+            z-index: 1000 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 5.8333333333333em;
+            font-weight: 400;
+            font-family: "Playfair Display";
+        }
 
-        <!-- Styles -->
-        <style>
-            /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--tw-bg-opacity: 1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity: 1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.border-gray-200{--tw-border-opacity: 1;border-color:rgb(229 231 235 / var(--tw-border-opacity))}.border-t{border-top-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{--tw-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);--tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.text-center{text-align:center}.text-gray-200{--tw-text-opacity: 1;color:rgb(229 231 235 / var(--tw-text-opacity))}.text-gray-300{--tw-text-opacity: 1;color:rgb(209 213 219 / var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity: 1;color:rgb(156 163 175 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity: 1;color:rgb(75 85 99 / var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity: 1;color:rgb(55 65 81 / var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity: 1;color:rgb(17 24 39 / var(--tw-text-opacity))}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--tw-bg-opacity: 1;background-color:rgb(31 41 55 / var(--tw-bg-opacity))}.dark\:bg-gray-900{--tw-bg-opacity: 1;background-color:rgb(17 24 39 / var(--tw-bg-opacity))}.dark\:border-gray-700{--tw-border-opacity: 1;border-color:rgb(55 65 81 / var(--tw-border-opacity))}.dark\:text-white{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:text-gray-400{--tw-text-opacity: 1;color:rgb(156 163 175 / var(--tw-text-opacity))}.dark\:text-gray-500{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity))}}
-        </style>
+        .md-objects .md-object.md-layer-1-1-0 {
+            z-index: 999 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 5em;
+            font-weight: 400;
+            font-family: "Playfair Display";
+            text-transform: none;
+        }
 
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
+        .md-objects .md-object.md-layer-1-1-1 {
+            z-index: 1000 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 5.8333333333333em;
+            font-weight: 400;
+            font-family: "Playfair Display";
+            text-transform: none;
+        }
+
+        .md-objects .md-object.md-layer-1-2-0 {
+            z-index: 1000 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 5.8333333333333em;
+            font-family: "Playfair Display";
+        }
+
+        .md-objects .md-object.md-layer-1-2-1 {
+            z-index: 999 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 5.8333333333333em;
+            font-family: "Playfair Display";
+        }
+
+        .md-objects .md-object.md-layer-1-2-2 {
+            z-index: 997 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 5.8333333333333em;
+            font-family: "Playfair Display";
+        }
+
+        .md-objects .md-object.md-layer-1-2-3 {
+            z-index: 998 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 16.666666666667em;
+            font-family: "Playfair Display";
+            text-decoration: none;
+            text-transform: none;
+        }
+
+        .md-objects .md-object.md-layer-1-3-0 {
+            z-index: 999 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 5em;
+            font-weight: 400;
+            font-family: "Playfair Display";
+            text-transform: none;
+        }
+
+        .md-objects .md-object.md-layer-1-3-1 {
+            z-index: 1000 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 5em;
+            font-weight: 400;
+            font-family: "Playfair Display";
+            text-transform: none;
+        }
+
+        .md-objects .md-object.md-layer-1-4-0 {
+            z-index: 1000 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 5.8333333333333em;
+            font-family: "Playfair Display";
+        }
+
+        .md-objects .md-object.md-layer-1-4-1 {
+            z-index: 999 !important;
+            color: #ffffff !important;
+            text-align: left;
+            font-size: 4.1666666666667em;
+            font-family: "Playfair Display";
+        }
+
+        .md-objects .md-object.md-layer-1-4-2 {
+            z-index: 998 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 5.8333333333333em;
+            font-family: "Playfair Display";
+        }
+
+        .md-objects .md-object.md-layer-1-5-0 {
+            z-index: 1000 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 5.8333333333333em;
+            font-family: "Playfair Display";
+        }
+
+        .md-objects .md-object.md-layer-1-5-1 {
+            z-index: 998 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 5.8333333333333em;
+            font-family: "Playfair Display";
+        }
+
+        .md-objects .md-object.md-layer-1-5-2 {
+            z-index: 999 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 5.8333333333333em;
+            font-family: "Playfair Display";
+            text-transform: uppercase;
+        }
+
+        .md-objects .md-object.md-layer-1-5-3 {
+            z-index: 997 !important;
+            color: #ffffff !important;
+            font-size: 5.8333333333333em;
+            font-family: "Playfair Display";
+        }
+
+        .md-objects .md-object.md-layer-1-6-0 {
+            z-index: 1000 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 5.8333333333333em;
+            font-family: "Playfair Display";
+        }
+
+        .md-objects .md-object.md-layer-1-6-1 {
+            z-index: 999 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 4.1666666666667em;
+            font-family: "Playfair Display";
+        }
+
+        .md-objects .md-object.md-layer-1-6-2 {
+            z-index: 998 !important;
+            color: #ffffff !important;
+            text-align: center;
+            font-size: 5em;
+            font-family: "Playfair Display";
+        }
+    </style>
+    <link type="text/css" rel="stylesheet"
+          href="https://www.pepinieres-guillaume.com/sites/default/files//css/css_bXD_KwDY4Uxf2ADDnUfO7XE540GTrR5Wdcv4k3-RX2A.css"
+          media="all">
+    <style>@media (max-width: 460px) {
+            .hideonmobile {
+                display: none !important;
             }
-        </style>
-    </head>
-    <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            @if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
+        }
+    </style>
+    <link type="text/css" rel="stylesheet"
+          href="https://www.pepinieres-guillaume.com/sites/default/files//css/css_AoNt1Cqpm6D-RCDtmb-Psu14nOpsqOezgWIL55JYWgE.css"
+          media="all">
+    <style>div.a2151_field {
+            display: none;
+            visibility: hidden;
+        }
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
-                        @endif
-                    @endauth
+        div.af09e_field {
+            display: none;
+            visibility: hidden;
+        }
+
+        div.a2b35_field {
+            display: none;
+            visibility: hidden;
+        }
+    </style>
+    <link type="text/css" rel="stylesheet"
+          href="https://www.pepinieres-guillaume.com/sites/default/files//css/css_YTdTdClGAJCRk2uErOnMYh-OKgyC82tVCHgb1fZMi60.css"
+          media="all">
+    <link type="text/css" rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" media="all">
+    <link type="text/css" rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.3.1/7.x-3.x/drupal-bootstrap.min.css"
+          media="all">
+    <link type="text/css" rel="stylesheet"
+          href="https://www.pepinieres-guillaume.com/sites/default/files//css/css_Ly_NnhGsi5rJt0m2kecOa2FrepE6ZdDuqNe-xX4_oWQ.css"
+          media="all">
+
+    <!-- HTML5 element support for IE6-8 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    <script
+        src="https://www.pepinieres-guillaume.com/sites/default/files//js/js_6wB7_RH3hNT_viZwOlvXgQ7bvciK-Mir9CVHAkENV64.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script
+        src="https://www.pepinieres-guillaume.com/sites/default/files//js/js_R9UbiVw2xuTUI0GZoaqMDOdX0lrZtgX-ono8RVOUEVc.js"></script>
+    <script
+        src="https://www.pepinieres-guillaume.com/sites/default/files//js/js_MrZcGv0xFIk_wozRQ1ggBKFLcqQy6vLZlWaDjkjm92w.js"></script>
+    <script>(function ($) {
+            $(document).ready(function () {
+                effectsIn = Drupal.settings.inEffects;
+                effectsOut = Drupal.settings.outEffects;
+                var options_1 = Drupal.settings.md_slider_options_1;
+                if (!window.listMegaSlide) {
+                    window.listMegaSlide = [];
+                }
+                $('.md-slide-items').each(function (index, item) {
+                    if ($(item).attr('id') == 'md-slider-1-block') {
+                        listMegaSlide[index] = $('#md-slider-1-block').mdSlider(options_1);
+                    }
+                });
+            });
+        })(jQuery);</script>
+    <script>(function ($) {
+            Drupal.behaviors.a0b4e68ef0ccbfbd95b = {
+                attach: function (context, settings) {
+                    $("input.a2151_field").each(function () {
+                        f = $(this)[0];
+                        if (f.value.indexOf("d95bf0cbfbd") == 0) {
+                            f.value = "15" + f.value.substring(6) + "bf0a1f22f50624dab_form";
+                        }
+                    });
+                }
+            };
+        })(jQuery);</script>
+    <script
+        src="https://www.pepinieres-guillaume.com/sites/default/files//js/js_zsU7pE_En9PuEzx00IjN_iCxIwgABAiEwJNkh1iTG9k.js"></script>
+    <script>(function ($) {
+            Drupal.behaviors.a0b4e68ef0c76633dc8 = {
+                attach: function (context, settings) {
+                    $("input.af09e_field").each(function () {
+                        f = $(this)[0];
+                        tok2 = f.style.fontFamily;
+                        if (tok2.charAt(0) == "'" || tok2.charAt(0) == '"') tok2 = tok2.substring(1, tok2.length - 1);
+                        tok2 = tok2.substring(1, tok2.length);
+                        if (f.value.indexOf("3dc76633dc") == 0) {
+                            f.value = "e5" + f.value.substring(3) + tok2;
+                        }
+                    });
+                }
+            };
+        }(jQuery));</script>
+    <script>(function ($) {
+            Drupal.behaviors.a0b4e68ef0cc43b985a = {
+                attach: function (context, settings) {
+                    $("input.a2b35_field").each(function () {
+                        f = $(this)[0];
+                        if (f.value.indexOf("985a03c43b98") == 0) {
+                            v = f.value.substring(6);
+                            $("#webform-client-form-89").get(0).setAttribute('action', '/?2b35_name=57' + v + 'a03b0102c54c0a0c5_form');
+                        }
+                    });
+                }
+            };
+        }(jQuery));</script>
+    <script
+        src="https://www.pepinieres-guillaume.com/sites/default/files//js/js_7Exut1Vh8AVq3g1VqbfgT3kmhQ5fywumr2d9w330QHA.js"></script>
+    <script
+        src="https://www.pepinieres-guillaume.com/sites/default/files//js/js_koIweT-roGqFE6qt2stnBc-27l3f5EBNugoNYFa6mfM.js"></script>
+    <script>jQuery.extend(Drupal.settings, {
+            "basePath": "\/",
+            "pathPrefix": "fr\/",
+            "setHasJsCookie": 0,
+            "ajaxPageState": {
+                "theme": "cdn", "theme_token": "2dXeaFHPM5695dyXYDHAkW6HOg8Ha-EInNdlsGwokJs", "js": {
+                    "sites\/all\/themes\/bootstrap\/js\/bootstrap.js": 1,
+                    "sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js": 1,
+                    "misc\/jquery-extend-3.4.0.js": 1,
+                    "misc\/jquery-html-prefilter-3.5.0-backport.js": 1,
+                    "misc\/jquery.once.js": 1,
+                    "misc\/drupal.js": 1,
+                    "https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@3.3.7\/dist\/js\/bootstrap.min.js": 1,
+                    "sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js": 1,
+                    "public:\/\/languages\/fr_T_3U8flgFIBZBviTsQhCcqtkO-VpEK0UbgSByc6qDZw.js": 1,
+                    "sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js": 1,
+                    "sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js": 1,
+                    "sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js": 1,
+                    "sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js": 1,
+                    "sites\/all\/modules\/contrib\/md_slider\/js\/jquery.touchwipe.js": 1,
+                    "sites\/all\/modules\/contrib\/md_slider\/js\/modernizr.js": 1,
+                    "sites\/all\/modules\/contrib\/md_slider\/js\/jquery-migrate-1.2.1.min.js": 1,
+                    "sites\/all\/modules\/contrib\/md_slider\/js\/jquery.easing.js": 1,
+                    "sites\/all\/modules\/contrib\/md_slider\/js\/md-slider.js": 1,
+                    "0": 1,
+                    "1": 1,
+                    "sites\/all\/modules\/contrib\/field_group\/field_group.js": 1,
+                    "2": 1,
+                    "3": 1,
+                    "sites\/all\/modules\/contrib\/responsive_menus\/styles\/sidr\/js\/responsive_menus_sidr.js": 1,
+                    "sites\/all\/libraries\/sidr\/jquery.sidr.min.js": 1,
+                    "misc\/textarea.js": 1,
+                    "sites\/all\/modules\/contrib\/webform\/js\/webform.js": 1,
+                    "sites\/all\/themes\/cdn\/js\/responsiveslides.min.js": 1,
+                    "sites\/all\/themes\/cdn\/js\/imagesloaded.pkgd.min.js": 1,
+                    "sites\/all\/themes\/cdn\/js\/masonry.pkgd.min.js": 1,
+                    "sites\/all\/themes\/cdn\/js\/guillaume.js": 1
+                }, "css": {
+                    "modules\/system\/system.base.css": 1,
+                    "modules\/field\/theme\/field.css": 1,
+                    "modules\/node\/node.css": 1,
+                    "sites\/all\/modules\/contrib\/views\/css\/views.css": 1,
+                    "sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css": 1,
+                    "sites\/all\/modules\/contrib\/ctools\/css\/ctools.css": 1,
+                    "sites\/all\/modules\/contrib\/panels\/css\/panels.css": 1,
+                    "sites\/all\/modules\/contrib\/date\/date_api\/date.css": 1,
+                    "sites\/all\/modules\/contrib\/md_slider\/css\/animate.css": 1,
+                    "sites\/all\/modules\/contrib\/md_slider\/css\/md-slider.css": 1,
+                    "0": 1,
+                    "sites\/all\/modules\/contrib\/md_slider\/css\/md-slider-style.css": 1,
+                    "1": 1,
+                    "public:\/\/ctools\/css\/f1fde7c661c2a268a8093b0362868475.css": 1,
+                    "public:\/\/ctools\/css\/329e8d7619221cb9070fbb25ca15b7d7.css": 1,
+                    "modules\/locale\/locale.css": 1,
+                    "sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/flexible\/flexible.css": 1,
+                    "public:\/\/ctools\/css\/4cee6231f68374ff25c1934537c6c5ef.css": 1,
+                    "2": 1,
+                    "3": 1,
+                    "4": 1,
+                    "sites\/all\/libraries\/sidr\/stylesheets\/jquery.sidr.light.css": 1,
+                    "sites\/all\/modules\/contrib\/webform\/css\/webform.css": 1,
+                    "https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@3.3.7\/dist\/css\/bootstrap.min.css": 1,
+                    "https:\/\/cdn.jsdelivr.net\/npm\/@unicorn-fail\/drupal-bootstrap-styles@0.0.2\/dist\/3.3.1\/7.x-3.x\/drupal-bootstrap.min.css": 1,
+                    "sites\/all\/themes\/cdn\/css\/style.css": 1,
+                    "sites\/all\/themes\/cdn\/css\/responsiveslides.css": 1
+                }
+            },
+            "colorbox": {
+                "opacity": "0.85",
+                "current": "{current} sur {total}",
+                "previous": "\u00ab Pr\u00e9c.",
+                "next": "Suivant \u00bb",
+                "close": "Fermer",
+                "maxWidth": "98%",
+                "maxHeight": "98%",
+                "fixed": true,
+                "mobiledetect": true,
+                "mobiledevicewidth": "480px",
+                "file_public_path": "\/sites\/default\/files\/",
+                "specificPagesDefaultValue": "admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"
+            },
+            "better_exposed_filters": {
+                "views": {
+                    "liste_des_pages": {"displays": {"pane_home5pages": {"filters": []}}},
+                    "last_news_block": {"displays": {"block": {"filters": []}}}
+                }
+            },
+            "field_group": {"html-element": "default"},
+            "inEffects": ["bounceIn", "bounceInDown", "bounceInUp", "bounceInLeft", "bounceInRight", "fadeIn", "fadeInUp", "fadeInDown", "fadeInLeft", "fadeInRight", "fadeInUpBig", "fadeInDownBig", "fadeInLeftBig", "fadeInRightBig", "flipInX", "flipInY", "foolishIn", "lightSpeedIn", "puffIn", "rollIn", "rotateIn", "rotateInDownLeft", "rotateInDownRight", "rotateInUpLeft", "rotateInUpRight", "twisterInDown", "twisterInUp", "swap", "swashIn", "tinRightIn", "tinLeftIn", "tinUpIn", "tinDownIn", "vanishIn"],
+            "outEffects": ["bombRightOut", "bombLeftOut", "bounceOut", "bounceOutDown", "bounceOutUp", "bounceOutLeft", "bounceOutRight", "fadeOut", "fadeOutUp", "fadeOutDown", "fadeOutLeft", "fadeOutRight", "fadeOutUpBig", "fadeOutDownBig", "fadeOutLeftBig", "fadeOutRightBig", "flipOutX", "flipOutY", "foolishOut", "hinge", "holeOut", "lightSpeedOut", "puffOut", "rollOut", "rotateOut", "rotateOutDownLeft", "rotateOutDownRight", "rotateOutUpLeft", "rotateOutUpRight", "rotateDown", "rotateUp", "rotateLeft", "rotateRight", "swashOut", "tinRightOut", "tinLeftOut", "tinUpOut", "tinDownOut", "vanishOut"],
+            "md_slider_options_1": {
+                "fullwidth": true,
+                "transitionsSpeed": 1000,
+                "width": "1440",
+                "height": "610",
+                "enableDrag": true,
+                "responsive": true,
+                "pauseOnHover": false,
+                "loop": true,
+                "showLoading": true,
+                "loadingPosition": "bottom",
+                "showArrow": true,
+                "showBullet": false,
+                "showNavigationLinks": false,
+                "posBullet": "2",
+                "showThumb": false,
+                "posThumb": "1",
+                "slideShowDelay": "4000",
+                "slideShow": true,
+                "styleBorder": "0",
+                "styleShadow": "0",
+                "videoBox": false,
+                "autoplayVideo": false
+            },
+            "urlIsAjaxTrusted": {"\/": true},
+            "responsive_menus": [{
+                "selectors": [".menu-block-4"],
+                "trigger_txt": "\u2630 Menu",
+                "side": "right",
+                "speed": "200",
+                "media_size": "768",
+                "displace": "1",
+                "renaming": "1",
+                "onOpen": "",
+                "onClose": "",
+                "responsive_menus_style": "sidr"
+            }],
+            "bootstrap": {
+                "anchorsFix": "0",
+                "anchorsSmoothScrolling": "0",
+                "formHasError": 1,
+                "popoverEnabled": 1,
+                "popoverOptions": {
+                    "animation": 1,
+                    "html": 0,
+                    "placement": "right",
+                    "selector": "",
+                    "trigger": "click",
+                    "triggerAutoclose": 1,
+                    "title": "",
+                    "content": "",
+                    "delay": 0,
+                    "container": "body"
+                },
+                "tooltipEnabled": 1,
+                "tooltipOptions": {
+                    "animation": 1,
+                    "html": 0,
+                    "placement": "auto left",
+                    "selector": "",
+                    "trigger": "hover focus",
+                    "delay": 0,
+                    "container": "body"
+                }
+            }
+        });</script>
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i|Roboto+Condensed:300,400,700&amp;display=swap"
+        rel="stylesheet">
+
+
+</head>
+<body class="html front not-logged-in no-sidebars page-homepage i18n-fr">
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Aller au contenu principal</a>
+</div>
+<header id="navbar" role="banner" class="navbar container-fluid navbar-default  navbar-top-sm">
+    <div class="container">
+        <div class="navbar-header">
+
+            <a class="logo navbar-btn _pull-left" href="/fr" title="Accueil">
+                <img src="https://www.pepinieres-guillaume.com/sites/default/files//logo-guillaume_0.png"
+                     alt="Pépinières Guillaume">
+            </a>
+
+
+        </div>
+
+
+        <div class="navbar-collapse _collapse" id="navbar-collapse">
+            <nav role="navigation">
+                <!-- region navigation -->
+                <div class="region region-navigation">
+                    <section id="block-menu-block-4" class="block block-menu-block  block-menu-block-4 clearfix">
+
+                        <h2 class="block-title"></h2>
+                        <h2 class="title block-title element-invisible">HEADER : Menu principal</h2>
+
+
+                        <div id="sidr-wrapper-0" style="display: none;"><a id="sidr-0-button" href="#sidr-0">☰ Menu</a>
+                        </div>
+                        <div
+                            class="menu-block-wrapper menu-block-4 menu-name-main-menu parent-mlid-0 menu-level-1 responsive-menus-sidr-processed"
+                            style="display: block;">
+                            <ul class="menu nav">
+                                <li class="first leaf active menu-mlid-1247 active"><a href="/fr"
+                                                                                       title="Pépinières Guillaume accueil"
+                                                                                       class="active">Accueil</a></li>
+                                <li class="expanded menu-mlid-981 dropdown">
+                                    <div title="" class="dropdown-toggle nolink" data-toggle="dropdown" tabindex="0">
+                                        Notre groupe <span class="caret"></span></div>
+                                    <ul class="dropdown-menu">
+                                        <li class="first leaf menu-mlid-1418"><a
+                                                href="/fr/notre-groupe/guillaume-partenaire-de-confiance-et-de-reference-du-monde-viticole">Une
+                                                passion familiale de plus de 120 ans</a></li>
+                                        <li class="leaf menu-mlid-893"><a
+                                                href="/fr/notre-groupe/notre-production-en-france">Notre production en
+                                                France</a></li>
+                                        <li class="leaf menu-mlid-1242"><a
+                                                href="/fr/notre-groupe/le-developpement-international-des-pepinieres-guillaume">Une
+                                                renommée internationale</a></li>
+                                        <li class="leaf menu-mlid-1810"><a href="/fr/actualite" title="">L'actualité du
+                                                Groupe</a></li>
+                                        <li class="last leaf menu-mlid-2189"><a href="/fr/mediatheque-images" title="">Médiathèque</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="expanded menu-mlid-1436 dropdown">
+                                    <div title="" class="dropdown-toggle nolink" data-toggle="dropdown" tabindex="0">
+                                        Produits <span class="caret"></span></div>
+                                    <ul class="dropdown-menu">
+                                        <li class="first leaf menu-mlid-2991"><a href="/fr/nos-produits/plantations"
+                                                                                 title="Plantations">Plantations</a>
+                                        </li>
+                                        <li class="leaf menu-mlid-2992"><a href="/fr/nos-produits/plant-de-remplacement"
+                                                                           title="Plant de remplacement">Plant de
+                                                remplacement</a></li>
+                                        <li class="last leaf menu-mlid-2993"><a href="/fr/nos-produits/innovations"
+                                                                                title="Innovations">Innovations</a></li>
+                                    </ul>
+                                </li>
+                                <li class="expanded menu-mlid-1419 dropdown">
+                                    <div title="" class="dropdown-toggle nolink" data-toggle="dropdown" tabindex="0">
+                                        Services <span class="caret"></span></div>
+                                    <ul class="dropdown-menu">
+                                        <li class="first leaf menu-mlid-1422"><a
+                                                href="/fr/services/taillage-des-racines">Taillages des racines</a></li>
+                                        <li class="leaf menu-mlid-1421"><a href="/fr/services/traitement-l-eau-chaude">Traitement
+                                                à l’eau chaude</a></li>
+                                        <li class="last leaf menu-mlid-1420"><a
+                                                href="/fr/services/plantation-mecanique-ou-manuelle">Plantation
+                                                mécanique ou manuelle</a></li>
+                                    </ul>
+                                </li>
+                                <li class="expanded menu-mlid-650 dropdown">
+                                    <div title="" class="dropdown-toggle nolink" data-toggle="dropdown" tabindex="0">
+                                        Savoir-faire et R&amp;D <span class="caret"></span></div>
+                                    <ul class="dropdown-menu">
+                                        <li class="first leaf menu-mlid-1252"><a
+                                                href="/fr/savoir-faire-et-rd/qualite-tracabilite">Qualité et
+                                                traçabilité</a></li>
+                                        <li class="leaf menu-mlid-1426"><a
+                                                href="/fr/savoir-faire-et-rd/expertise-conseil">Expertise &amp;
+                                                Conseil</a></li>
+                                        <li class="leaf menu-mlid-1427"><a
+                                                href="/fr/savoir-faire-et-rd/selections-massales">Sélections
+                                                massales</a></li>
+                                        <li class="leaf menu-mlid-1428"><a href="/fr/savoir-faire-et-rd/les-premunis">Les
+                                                prémunis</a></li>
+                                        <li class="leaf menu-mlid-1250"><a
+                                                href="/fr/savoir-faire-et-rd/mycorhizes-et-trichodermas">Mycorhizes et
+                                                trichodermas</a></li>
+                                        <li class="last leaf menu-mlid-1429"><a
+                                                href="/fr/savoir-faire-et-rd/programmes-de-recherche">Programmes de
+                                                recherche</a></li>
+                                    </ul>
+                                </li>
+                                <li class="leaf menu-mlid-2058"><a href="/fr/nos-varietes">Nos variétés</a></li>
+                                <li class="last collapsed menu-mlid-1869"><a
+                                        href="/fr/un-projet-une-question-contactez-votre-conseiller-regional">Contactez-nous</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </section>
+                    <section id="block-locale-language" class="block block-locale  block-locale-language clearfix">
+
+
+                        <ul class="language-switcher-locale-url">
+                            <li class="en first"><a href="/en" class="language-link" xml:lang="en">English</a></li>
+                            <li class="fr active"><a href="/fr" class="language-link active" xml:lang="fr">Français</a>
+                            </li>
+                            <li class="it"><a href="/it" class="language-link" xml:lang="it">Italiano</a></li>
+                            <li class="es last"><a href="/es" class="language-link" xml:lang="es">Español</a></li>
+                        </ul>
+                    </section>
                 </div>
-            @endif
+            </nav>
+        </div>
 
-            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                    <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto text-gray-700 sm:h-20">
-                        <g clip-path="url(#clip0)" fill="#EF3B2D">
-                            <path d="M248.032 44.676h-16.466v100.23h47.394v-14.748h-30.928V44.676zM337.091 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.431 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162-.001 2.863-.479 5.584-1.432 8.161zM463.954 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.432 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162 0 2.863-.479 5.584-1.432 8.161zM650.772 44.676h-15.606v100.23h15.606V44.676zM365.013 144.906h15.607V93.538h26.776V78.182h-42.383v66.724zM542.133 78.182l-19.616 51.096-19.616-51.096h-15.808l25.617 66.724h19.614l25.617-66.724h-15.808zM591.98 76.466c-19.112 0-34.239 15.706-34.239 35.079 0 21.416 14.641 35.079 36.239 35.079 12.088 0 19.806-4.622 29.234-14.688l-10.544-8.158c-.006.008-7.958 10.449-19.832 10.449-13.802 0-19.612-11.127-19.612-16.884h51.777c2.72-22.043-11.772-40.877-33.023-40.877zm-18.713 29.28c.12-1.284 1.917-16.884 18.589-16.884 16.671 0 18.697 15.598 18.813 16.884h-37.402zM184.068 43.892c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002-35.648-20.524a2.971 2.971 0 00-2.964 0l-35.647 20.522-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v38.979l-29.706 17.103V24.493a3 3 0 00-.103-.776c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002L40.098 1.396a2.971 2.971 0 00-2.964 0L1.487 21.919l-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v122.09c0 1.063.568 2.044 1.489 2.575l71.293 41.045c.156.089.324.143.49.202.078.028.15.074.23.095a2.98 2.98 0 001.524 0c.069-.018.132-.059.2-.083.176-.061.354-.119.519-.214l71.293-41.045a2.971 2.971 0 001.489-2.575v-38.979l34.158-19.666a2.971 2.971 0 001.489-2.575V44.666a3.075 3.075 0 00-.106-.774zM74.255 143.167l-29.648-16.779 31.136-17.926.001-.001 34.164-19.669 29.674 17.084-21.772 12.428-43.555 24.863zm68.329-76.259v33.841l-12.475-7.182-17.231-9.92V49.806l12.475 7.182 17.231 9.92zm2.97-39.335l29.693 17.095-29.693 17.095-29.693-17.095 29.693-17.095zM54.06 114.089l-12.475 7.182V46.733l17.231-9.92 12.475-7.182v74.537l-17.231 9.921zM38.614 7.398l29.693 17.095-29.693 17.095L8.921 24.493 38.614 7.398zM5.938 29.632l12.475 7.182 17.231 9.92v79.676l.001.005-.001.006c0 .114.032.221.045.333.017.146.021.294.059.434l.002.007c.032.117.094.222.14.334.051.124.088.255.156.371a.036.036 0 00.004.009c.061.105.149.191.222.288.081.105.149.22.244.314l.008.01c.084.083.19.142.284.215.106.083.202.178.32.247l.013.005.011.008 34.139 19.321v34.175L5.939 144.867V29.632h-.001zm136.646 115.235l-65.352 37.625V148.31l48.399-27.628 16.953-9.677v33.862zm35.646-61.22l-29.706 17.102V66.908l17.231-9.92 12.475-7.182v33.841z"/>
-                        </g>
-                    </svg>
-                </div>
 
-                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
-                    <div class="grid grid-cols-1 md:grid-cols-2">
-                        <div class="p-6">
-                            <div class="flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-gray-500"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" /></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="underline text-gray-900 dark:text-white">Documentation</a></div>
-                            </div>
+    </div>
+</header>
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
+
+<main class="main hero container-fluid">
+
+    <header role="banner" id="page-header">
+
+    </header> <!-- /#page-header -->
+
+    <div class="container-fluid">
+        <section class="col-sm-12">
+
+
+            <!-- affichage du fil d'ariane désactivé car présent dans page manager -->
+
+            <a id="main-content"></a>
+
+
+            <div class="region region-content">
+                <section id="block-system-main" class="block block-system  block-system-main clearfix">
+                    <div class="panel-flexible panels-flexible-homepage clearfix">
+                        <div class="panel-flexible-inside panels-flexible-homepage-inside">
+                            <div
+                                class="panels-flexible-row panels-flexible-row-homepage-4 panels-flexible-row-first clearfix row">
+                                <div
+                                    class="inside panels-flexible-row-inside panels-flexible-row-homepage-4-inside panels-flexible-row-inside-first clearfix">
+                                    <div
+                                        class="panels-flexible-region panels-flexible-region-homepage-entete_et_baseline panels-flexible-region-first panels-flexible-region-last ">
+                                        <div
+                                            class="inside panels-flexible-region-inside panels-flexible-region-homepage-entete_et_baseline-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+                                            <div class="panel-pane pane-block pane-md-slider-home-slider">
+
+
+                                                <div class="pane-content">
+                                                    <div class="md-slide-wrap md-slide-responsive md-slide-fullwidth"
+                                                         style="height: 502px;">
+                                                        <div class="md-item-wrap">
+                                                            <div id="md-slider-1-block" class="md-slide-items"
+                                                                 data-thumb-width="100" data-thumb-height="75" style="">
+                                                                <div class="wrap-loader-slider animated fadeOut">
+                                                                    <div class="wrap-cube">
+                                                                        <div class="sk-cube-grid">
+                                                                            <div class="sk-cube sk-cube1"></div>
+                                                                            <div class="sk-cube sk-cube2"></div>
+                                                                            <div class="sk-cube sk-cube3"></div>
+                                                                            <div class="sk-cube sk-cube4"></div>
+                                                                            <div class="sk-cube sk-cube5"></div>
+                                                                            <div class="sk-cube sk-cube6"></div>
+                                                                            <div class="sk-cube sk-cube7"></div>
+                                                                            <div class="sk-cube sk-cube8"></div>
+                                                                            <div class="sk-cube sk-cube9"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="md-slide-item slide-1" data-timeout="4000"
+                                                                     data-transition="fade" data-thumb-type="image"
+                                                                     data-thumb-alt=""
+                                                                     data-thumb="https://www.pepinieres-guillaume.com/sites/default/files//styles/md_slider_1_thumb/public/homeslider02.jpg?itok=mAiLtNsL"
+                                                                     style="height: 502px; top: 0px; left: 0px; display: none;">
+                                                                    <div class="md-mainimg" style="">
+
+                                                                        <img
+                                                                            src="https://www.pepinieres-guillaume.com/sites/default/files//homeslider02.jpg"
+                                                                            alt=""
+                                                                            style="display: flex; justify-content: center; width: auto; height: 502px; top: 0px; left: -0.52459px;">
+                                                                    </div>
+                                                                    <div class="md-objects"
+                                                                         style="width: 1396px; font-size: 81.2222%;">
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-0-0 fdsfds fadeOutRight"
+                                                                            data-x="515" data-y="295" data-width="588"
+                                                                            data-height="76" data-start="500"
+                                                                            data-stop="4000" data-easein="fadeInLeft"
+                                                                            data-easeout="fadeOutRight"
+                                                                            style="width: 40.8333%; height: 12.459%; top: 48.3607%; left: 35.7639%; display: none;">
+                                                                            et de la créativité
+                                                                        </div>
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-0-1 fdsfds fadeOutDown"
+                                                                            data-x="471" data-y="241" data-width="486"
+                                                                            data-height="55" data-start="300"
+                                                                            data-stop="3800" data-easein="fadeInUp"
+                                                                            data-easeout="fadeOutDown"
+                                                                            style="width: 33.75%; height: 9.01639%; top: 39.5082%; left: 32.7083%; display: none;">
+                                                                            du talent,
+                                                                        </div>
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-0-2 fdsfds fadeOutLeft"
+                                                                            data-x="267" data-y="166" data-width="600"
+                                                                            data-height="81" data-start="0"
+                                                                            data-stop="3600" data-easein="fadeInRight"
+                                                                            data-easeout="fadeOutLeft"
+                                                                            style="width: 41.6667%; height: 13.2787%; top: 27.2131%; left: 18.5417%; display: none;">
+                                                                            La passion du vin,
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="md-slide-item slide-2" data-timeout="4000"
+                                                                     data-transition="fade" data-thumb-type="image"
+                                                                     data-thumb-alt=""
+                                                                     data-thumb="https://www.pepinieres-guillaume.com/sites/default/files//styles/md_slider_1_thumb/public/album_partage_-_theglint_virginie_-_google_photos_0.jpg?itok=eLjKh_RZ"
+                                                                     style="display: none; height: 502px;">
+                                                                    <div class="md-mainimg" style="">
+
+                                                                        <img
+                                                                            src="https://www.pepinieres-guillaume.com/sites/default/files//album_partage_-_theglint_virginie_-_google_photos_0.jpg"
+                                                                            alt=""
+                                                                            style="width: 1184px; height: auto; top: -143.667px; left: 0px;">
+                                                                    </div>
+                                                                    <div class="md-objects"
+                                                                         style="width: 1184px; font-size: 81.2222%;">
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-1-0 fdsfds fadeOutRight"
+                                                                            data-x="299" data-y="300" data-width="708"
+                                                                            data-height="79" data-start="600"
+                                                                            data-stop="4000" data-easein="fadeInLeft"
+                                                                            data-easeout="fadeOutRight"
+                                                                            style="width: 49.1667%; height: 12.9508%; top: 49.1803%; left: 20.7639%; display: none;">
+                                                                            au service de votre projet
+                                                                        </div>
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-1-1 fdsfds fadeOutLeft"
+                                                                            data-x="140" data-y="235" data-width="1054"
+                                                                            data-height="73" data-start="0"
+                                                                            data-stop="3700" data-easein="fadeInRight"
+                                                                            data-easeout="fadeOutLeft"
+                                                                            style="width: 73.1944%; height: 11.9672%; top: 38.5246%; left: 9.72222%; display: none;">
+                                                                            L’excellence de notre savoir-faire
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="md-slide-item slide-3" data-timeout="4000"
+                                                                     data-transition="fade" data-thumb-type="image"
+                                                                     data-thumb-alt=""
+                                                                     data-thumb="https://www.pepinieres-guillaume.com/sites/default/files//styles/md_slider_1_thumb/public/img_9042_2.jpg?itok=gvbh693W"
+                                                                     style="display: none; height: 502px;">
+                                                                    <div class="md-mainimg" style="">
+
+                                                                        <img
+                                                                            src="https://www.pepinieres-guillaume.com/sites/default/files//img_9042_2.jpg"
+                                                                            alt=""
+                                                                            style="width: 1184px; height: auto; top: -143.79px; left: 0px;">
+                                                                    </div>
+                                                                    <div class="md-objects"
+                                                                         style="width: 1184px; font-size: 81.2222%;">
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-2-0 fdsfds fadeOutDown"
+                                                                            data-x="398" data-y="140" data-width="267"
+                                                                            data-height="76" data-start="0"
+                                                                            data-stop="3400" data-easein="fadeInUp"
+                                                                            data-easeout="fadeOutDown"
+                                                                            style="width: 18.5417%; height: 12.459%; top: 22.9508%; left: 27.6389%; display: none;">
+                                                                            Terroirs
+                                                                        </div>
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-2-1 fdsfds fadeOutUp"
+                                                                            data-x="333" data-y="226" data-width="236"
+                                                                            data-height="78" data-start="300"
+                                                                            data-stop="3600" data-easein="fadeInDown"
+                                                                            data-easeout="fadeOutUp"
+                                                                            style="width: 16.3889%; height: 12.7869%; top: 37.0492%; left: 23.125%; display: none;">
+                                                                            Audace
+                                                                        </div>
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-2-2 fdsfds fadeOutDown"
+                                                                            data-x="697" data-y="284" data-width="261"
+                                                                            data-height="87" data-start="800"
+                                                                            data-stop="3800" data-easein="fadeInUp"
+                                                                            data-easeout="fadeOutDown"
+                                                                            style="width: 18.125%; height: 14.2623%; top: 46.5574%; left: 48.4028%; display: none;">
+                                                                            Respect
+                                                                        </div>
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-2-3 fdsfds flipOutX"
+                                                                            data-x="556" data-y="179" data-width="174"
+                                                                            data-height="191" data-start="600"
+                                                                            data-stop="4000" data-easein="flipInX"
+                                                                            data-easeout="flipOutX"
+                                                                            style="width: 12.0833%; height: 31.3115%; top: 29.3443%; left: 38.6111%; display: none;">
+                                                                            &amp;
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="md-slide-item slide-4" data-timeout="4000"
+                                                                     data-transition="fade" data-thumb-type="image"
+                                                                     data-thumb-alt=""
+                                                                     data-thumb="https://www.pepinieres-guillaume.com/sites/default/files//styles/md_slider_1_thumb/public/070-img_9775.jpg?itok=tTgEuNiW"
+                                                                     style="display: block; height: 502px;">
+                                                                    <div class="md-mainimg" style="">
+
+                                                                        <img
+                                                                            src="https://www.pepinieres-guillaume.com/sites/default/files//070-img_9775.jpg"
+                                                                            alt=""
+                                                                            style="width: 1184px; height: auto; top: -143.79px; left: 0px;">
+                                                                    </div>
+                                                                    <div class="md-objects"
+                                                                         style="width: 1184px; font-size: 81.2222%;">
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-3-0 fdsfds fadeInLeft"
+                                                                            data-x="335" data-y="326" data-width="901"
+                                                                            data-height="74" data-start="600"
+                                                                            data-stop="4000" data-easein="fadeInLeft"
+                                                                            data-easeout="fadeOutRight"
+                                                                            style="width: 62.5694%; height: 12.1311%; top: 53.4426%; left: 23.2639%; display: block;">
+                                                                            clefs pour le vignoble de demain
+                                                                        </div>
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-3-1 fdsfds fadeInRight"
+                                                                            data-x="161" data-y="261" data-width="792"
+                                                                            data-height="72" data-start="0"
+                                                                            data-stop="3800" data-easein="fadeInRight"
+                                                                            data-easeout="fadeOutLeft"
+                                                                            style="width: 55%; height: 11.8033%; top: 42.7869%; left: 11.1806%; display: block;">
+                                                                            La recherche et l’innovation,
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="md-slide-item slide-5" data-timeout="4000"
+                                                                     data-transition="fade" data-thumb-type="image"
+                                                                     data-thumb-alt=""
+                                                                     data-thumb="https://www.pepinieres-guillaume.com/sites/default/files//styles/md_slider_1_thumb/public/052-img_6079.jpg?itok=6Ibc2MqA"
+                                                                     style="display: none; height: 502px;">
+                                                                    <div class="md-mainimg" style="">
+
+                                                                        <img
+                                                                            src="https://www.pepinieres-guillaume.com/sites/default/files//052-img_6079.jpg"
+                                                                            alt=""
+                                                                            style="width: 1184px; height: auto; top: -131.95px; left: 0px;">
+                                                                    </div>
+                                                                    <div class="md-objects"
+                                                                         style="width: 1184px; font-size: 81.2222%;">
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-4-0 fdsfds fadeOutUp"
+                                                                            data-x="526" data-y="119" data-width="384"
+                                                                            data-height="82" data-start="0"
+                                                                            data-stop="3600" data-easein="fadeInDown"
+                                                                            data-easeout="fadeOutUp"
+                                                                            style="width: 26.6667%; height: 13.4426%; top: 19.5082%; left: 36.5278%; display: none;">
+                                                                            Une famille
+                                                                        </div>
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-4-1 fdsfds fadeOutDown"
+                                                                            data-x="639" data-y="194" data-width="311"
+                                                                            data-height="53" data-start="300"
+                                                                            data-stop="3800" data-easein="fadeInUp"
+                                                                            data-easeout="fadeOutDown"
+                                                                            style="width: 21.5972%; height: 8.68852%; top: 31.8033%; left: 44.375%; display: none;">
+                                                                            une histoire
+                                                                        </div>
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-4-2 fdsfds fadeOutDown"
+                                                                            data-x="345" data-y="240" data-width="719"
+                                                                            data-height="92" data-start="600"
+                                                                            data-stop="4000" data-easein="fadeInUp"
+                                                                            data-easeout="fadeOutDown"
+                                                                            style="width: 49.9306%; height: 15.082%; top: 39.3443%; left: 23.9583%; display: none;">
+                                                                            un héritage centenaire
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="md-slide-item slide-6" data-timeout="4000"
+                                                                     data-transition="fade" data-thumb-type="image"
+                                                                     data-thumb-alt=""
+                                                                     data-thumb="https://www.pepinieres-guillaume.com/sites/default/files//styles/md_slider_1_thumb/public/img_9031.jpg?itok=xlpWVJ-0"
+                                                                     style="display: none; height: 502px;">
+                                                                    <div class="md-mainimg" style="">
+
+                                                                        <img
+                                                                            src="https://www.pepinieres-guillaume.com/sites/default/files//img_9031.jpg"
+                                                                            alt=""
+                                                                            style="width: 1184px; height: auto; top: -137.489px; left: 0px;">
+                                                                    </div>
+                                                                    <div class="md-objects"
+                                                                         style="width: 1184px; font-size: 81.2222%;">
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-5-0 fdsfds fadeOutUp"
+                                                                            data-x="539" data-y="192" data-width="344"
+                                                                            data-height="84" data-start="0"
+                                                                            data-stop="3400" data-easein="fadeInDown"
+                                                                            data-easeout="fadeOutUp"
+                                                                            style="width: 23.8889%; height: 13.7705%; top: 31.4754%; left: 37.4306%; display: none;">
+                                                                            Ensemble,
+                                                                        </div>
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-5-1 fdsfds fadeOutLeft"
+                                                                            data-x="460" data-y="351" data-width="382"
+                                                                            data-height="88" data-start="600"
+                                                                            data-stop="3800" data-easein="fadeInRight"
+                                                                            data-easeout="fadeOutLeft"
+                                                                            style="width: 26.5278%; height: 14.4262%; top: 57.541%; left: 31.9444%; display: none;">
+                                                                            un vignoble
+                                                                        </div>
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-5-2 fdsfds fadeOutDown"
+                                                                            data-x="569" data-y="277.5" data-width="284"
+                                                                            data-height="72" data-start="300"
+                                                                            data-stop="3600" data-easein="fadeInUp"
+                                                                            data-easeout="fadeOutDown"
+                                                                            style="width: 19.7222%; height: 11.8033%; top: 45.4918%; left: 39.5139%; display: none;">
+                                                                            créons
+                                                                        </div>
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-5-3 fdsfds fadeOutRight"
+                                                                            data-x="561" data-y="417" data-width="368"
+                                                                            data-height="85" data-start="800"
+                                                                            data-stop="4000" data-easein="fadeInLeft"
+                                                                            data-easeout="fadeOutRight"
+                                                                            style="width: 25.5556%; height: 13.9344%; top: 68.3607%; left: 38.9583%; display: none;">
+                                                                            d’exception
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="md-slide-item slide-7" data-timeout="4000"
+                                                                     data-transition="fade" data-thumb-type="image"
+                                                                     data-thumb-alt=""
+                                                                     data-thumb="https://www.pepinieres-guillaume.com/sites/default/files//styles/md_slider_1_thumb/public/album_partage_-_theglint_virginie_-_google_photos.jpg?itok=dh9tPlXt"
+                                                                     style="display: none; height: 502px;">
+                                                                    <div class="md-mainimg" style="">
+
+                                                                        <img
+                                                                            src="https://www.pepinieres-guillaume.com/sites/default/files//album_partage_-_theglint_virginie_-_google_photos.jpg"
+                                                                            alt=""
+                                                                            style="width: 1184px; height: auto; top: -125.989px; left: 0px;">
+                                                                    </div>
+                                                                    <div class="md-objects"
+                                                                         style="width: 1184px; font-size: 81.2222%;">
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-6-0 fdsfds fadeOutLeft"
+                                                                            data-x="187" data-y="221" data-width="834"
+                                                                            data-height="87" data-start="0"
+                                                                            data-stop="3600" data-easein="fadeInRight"
+                                                                            data-easeout="fadeOutLeft"
+                                                                            style="width: 57.9167%; height: 14.2623%; top: 36.2295%; left: 12.9861%; display: none;">
+                                                                            Les Pépinières Guillaume
+                                                                        </div>
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-6-1 fdsfds fadeOutRight"
+                                                                            data-x="490" data-y="294" data-width="546"
+                                                                            data-height="57" data-start="200"
+                                                                            data-stop="3800" data-easein="fadeInLeft"
+                                                                            data-easeout="fadeOutRight"
+                                                                            style="width: 37.9167%; height: 9.34426%; top: 48.1967%; left: 34.0278%; display: none;">
+                                                                            partenaire de confiance
+                                                                        </div>
+                                                                        <div
+                                                                            class="md-object text-black-shadow md-layer-1-6-2 fdsfds fadeOutLeft"
+                                                                            data-x="305" data-y="357" data-width="930"
+                                                                            data-height="75" data-start="400"
+                                                                            data-stop="4000" data-easein="fadeInRight"
+                                                                            data-easeout="fadeOutLeft"
+                                                                            style="width: 64.5833%; height: 12.2951%; top: 58.5246%; left: 21.1806%; display: none;">
+                                                                            et de référence du monde viticole
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-arrow">
+                                                                <div class="md-arrow-left"><span></span></div>
+                                                                <div class="md-arrow-right"><span></span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="loading-bar-hoz loading-bar-bottom">
+                                                            <div class="br-timer-glow" style="left: 492px;"></div>
+                                                            <div class="br-timer-bar" style="width: 592px;"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                            <div class="panels-flexible-row panels-flexible-row-homepage-2 clearfix row">
+                                <div
+                                    class="inside panels-flexible-row-inside panels-flexible-row-homepage-2-inside clearfix">
+                                    <div
+                                        class="panels-flexible-region panels-flexible-region-homepage-image_intro_droite panels-flexible-region-first panels-flexible-region-last homepage-intro">
+                                        <div
+                                            class="inside panels-flexible-region-inside panels-flexible-region-homepage-image_intro_droite-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
 
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
-                            <div class="flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-gray-500"><path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" /></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laracasts.com" class="underline text-gray-900 dark:text-white">Laracasts</a></div>
-                            </div>
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
+                                            <div class="panel-flexible panels-flexible-homepage_introduction clearfix">
+                                                <div
+                                                    class="panel-flexible-inside panels-flexible-homepage_introduction-inside">
+                                                    <div
+                                                        class="row row-homepage_introduction-main-row row-first clearfix row">
+                                                        <div
+                                                            class="inside row-inside row-homepage_introduction-main-row-inside row-inside-first clearfix">
+                                                            <div
+                                                                class="panels-flexible-region panels-flexible-region-homepage_introduction-center panels-flexible-region-first col-md-4 col-md-push-8 hidden-xs hidden-sm">
+                                                                <div
+                                                                    class="inside panels-flexible-region-inside panels-flexible-region-homepage_introduction-center-inside panels-flexible-region-inside-first">
+                                                                    <div class="block-2"><img typeof="foaf:Image"
+                                                                                              class="img-responsive"
+                                                                                              src="https://www.pepinieres-guillaume.com/sites/default/files//028-img_9885.jpg"
+                                                                                              width="480" height="698"
+                                                                                              alt=""></div>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="panels-flexible-region panels-flexible-region-homepage_introduction-blc_2 col-md-8 col-xs-12 col-md-pull-4">
+                                                                <div
+                                                                    class="inside panels-flexible-region-inside panels-flexible-region-homepage_introduction-blc_2-inside">
+                                                                    <div class="block-1">
+                                                                        <h2 class="slogan-1"><p><a
+                                                                                    href="https://www.vitipeps.fr"
+                                                                                    target="_blank"><img
+                                                                                        class="logolabel"
+                                                                                        src="{{asset('images/u.png')}}"
+                                                                                        alt=""></a></p>
+                                                                            <p>Vous avez la passion du vin, du talent,
+                                                                                et de la créativité</p>
+                                                                        </h2>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="panels-flexible-region panels-flexible-region-homepage_introduction-blc_3 col-md-4 col-md-pull-4 col-sm-6 col-xs-12">
+                                                                <div
+                                                                    class="inside panels-flexible-region-inside panels-flexible-region-homepage_introduction-blc_3-inside">
+                                                                    <div class="block-3"><img typeof="foaf:Image"
+                                                                                              class="img-responsive"
+                                                                                              src="https://www.pepinieres-guillaume.com/sites/default/files//serre03_0.jpg"
+                                                                                              width="480" height="480"
+                                                                                              alt=""></div>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="panels-flexible-region panels-flexible-region-homepage_introduction-blc_4 panels-flexible-region-last col-md-4 col-md-pull-4 col-sm-6 col-xs-12">
+                                                                <div
+                                                                    class="inside panels-flexible-region-inside panels-flexible-region-homepage_introduction-blc_4-inside panels-flexible-region-inside-last">
+                                                                    <div class="block-4"><p>Depuis cinq générations, les
+                                                                            Pépinières Guillaume, entreprise fondée en
+                                                                            1895 et dont le siège est situé en Bourgogne
+                                                                            Franche-Comté, figurent parmi les leaders
+                                                                            sur le marché des plants de vigne. La
+                                                                            société développe ses activités en
+                                                                            s'appuyant de manière intangible sur deux
+                                                                            mots-clés : qualité et innovation.</p>
+                                                                        <div
+                                                                            about="/fr/notre-groupe/guillaume-partenaire-de-confiance-et-de-reference-du-monde-viticole"
+                                                                            typeof="foaf:Document"
+                                                                            class="ds-1col node node-page node-promoted view-mode-home_summary  clearfix">
+
+
+                                                                            <p class="node-readmore pull-left"><a
+                                                                                    href="https://www.pepinieres-guillaume.com/fr/notre-groupe/guillaume-partenaire-de-confiance-et-de-reference-du-monde-viticole">Lire
+                                                                                    la suite</a></p></div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row row-homepage_introduction-1 row-last clearfix row">
+                                                        <div
+                                                            class="inside row-inside row-homepage_introduction-1-inside row-inside-last clearfix">
+                                                            <div
+                                                                class="panels-flexible-region panels-flexible-region-homepage_introduction-gauche panels-flexible-region-first col-md-4 col-sm-6 col-xs-12">
+                                                                <div
+                                                                    class="inside panels-flexible-region-inside panels-flexible-region-homepage_introduction-gauche-inside panels-flexible-region-inside-first">
+                                                                    <div class="block-5"><h2 class="slogan-2">Nous vous
+                                                                            apportons notre savoir-faire pour exprimer
+                                                                            votre passion et parvenir au plus près de
+                                                                            l'excellence</h2></div>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="panels-flexible-region panels-flexible-region-homepage_introduction-centre col-md-4 col-sm-6 col-xs-12">
+                                                                <div
+                                                                    class="inside panels-flexible-region-inside panels-flexible-region-homepage_introduction-centre-inside">
+                                                                    <div class="block-6"><img typeof="foaf:Image"
+                                                                                              class="img-responsive"
+                                                                                              src="https://www.pepinieres-guillaume.com/sites/default/files//mission.jpg"
+                                                                                              width="390" height="390"
+                                                                                              alt=""></div>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="panels-flexible-region panels-flexible-region-homepage_introduction-droite panels-flexible-region-last col-md-4 col-xs-12">
+                                                                <div
+                                                                    class="inside panels-flexible-region-inside panels-flexible-region-homepage_introduction-droite-inside panels-flexible-region-inside-last">
+                                                                    <div class="block-7"><h2 class="title-block">Notre
+                                                                            mission</h2>
+                                                                        <p>Aux premiers rangs de la pépinière viticole
+                                                                            mondiale, les Pépinières Guillaume se sont
+                                                                            spécialisées depuis 1895 dans le greffage de
+                                                                            plants de vigne de qualité.</p>
+                                                                        <p>A travers notre travail de recherche et de
+                                                                            sélection génétique, nous proposons à nos
+                                                                            clients viticulteurs du monde entier une
+                                                                            large gamme de produits répondant à leurs
+                                                                            exigences.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700">
-                            <div class="flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-gray-500"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" /></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/" class="underline text-gray-900 dark:text-white">Laravel News</a></div>
-                            </div>
-
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
+                            <div class="panels-flexible-row panels-flexible-row-homepage-1 clearfix row">
+                                <div
+                                    class="inside panels-flexible-row-inside panels-flexible-row-homepage-1-inside clearfix">
+                                    <div
+                                        class="panels-flexible-region panels-flexible-region-homepage-intro_2 panels-flexible-region-first panels-flexible-region-last row">
+                                        <div
+                                            class="inside panels-flexible-region-inside panels-flexible-region-homepage-intro_2-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+                                            &nbsp;
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                            <div class="panels-flexible-row panels-flexible-row-homepage-main-row clearfix row">
+                                <div
+                                    class="inside panels-flexible-row-inside panels-flexible-row-homepage-main-row-inside clearfix">
+                                    <div
+                                        class="panels-flexible-region panels-flexible-region-homepage-center panels-flexible-region-first panels-flexible-region-last ">
+                                        <div
+                                            class="inside panels-flexible-region-inside panels-flexible-region-homepage-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+                                            <section class="main">
+                                                <div
+                                                    class="panel-pane pane-views-panes pane-liste-des-pages-pane-home5pages">
 
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
-                            <div class="flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-gray-500"><path stroke-linecap="round" stroke-linejoin="round" d="M6.115 5.19l.319 1.913A6 6 0 008.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 002.288-4.042 1.087 1.087 0 00-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 01-.98-.314l-.295-.295a1.125 1.125 0 010-1.591l.13-.132a1.125 1.125 0 011.3-.21l.603.302a.809.809 0 001.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 001.528-1.732l.146-.292M6.115 5.19A9 9 0 1017.18 4.64M6.115 5.19A8.965 8.965 0 0112 3c1.929 0 3.716.607 5.18 1.64" /></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</div>
+
+                                                    <div class="pane-content">
+                                                        <div
+                                                            class="view view-liste-des-pages view-id-liste_des_pages view-display-id-pane_home5pages clearfix view-dom-id-779a54353808805e97c0e83688d856e6">
+
+
+                                                            <div class="view-content">
+                                                                <div>
+                                                                    <div
+                                                                        about="/fr/savoir-faire-et-rd/expertise-conseil"
+                                                                        typeof="foaf:Document"
+                                                                        class="ds-1col node node-page node-promoted node-sticky view-mode-home_teaser_big  clearfix">
+
+
+                                                                        <a href="/fr/savoir-faire-et-rd/expertise-conseil"><img
+                                                                                typeof="foaf:Image"
+                                                                                class="img-responsive"
+                                                                                src="https://www.pepinieres-guillaume.com/sites/default/files//styles/home_focus_1_2_page/public/hero/handshake.jpg?itok=KiYWMay_&amp;c=c63f3a0d842212ea707e4bec660a5a7a"
+                                                                                alt=""></a>
+                                                                        <h2 class="title-section">Savoir-faire et R&amp;D</h2>
+                                                                        <h3 class="title-block">Expertise &amp;
+                                                                            Conseil</h3>
+                                                                        <p>Le monde du vin est passionnant mais aussi
+                                                                            très exigeant.</p>
+                                                                        <p>Nos clients viticulteurs dans le monde entier
+                                                                            savent que seuls des vins de qualité et de
+                                                                            caractère trouveront leur place sur
+                                                                            le...</p>
+                                                                        <p class="node-readmore-icon "><a
+                                                                                href="https://www.pepinieres-guillaume.com/fr/savoir-faire-et-rd/expertise-conseil"><span
+                                                                                    class="glyphicon glyphicon-plus"
+                                                                                    aria-hidden="true"></span></a></p>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div>
+                                                                    <div
+                                                                        about="/fr/notre-groupe/notre-production-en-france"
+                                                                        typeof="foaf:Document"
+                                                                        class="ds-1col node node-page node-promoted view-mode-home_teaser_big  clearfix">
+
+
+                                                                        <a href="/fr/notre-groupe/notre-production-en-france"><img
+                                                                                typeof="foaf:Image"
+                                                                                class="img-responsive"
+                                                                                src="https://www.pepinieres-guillaume.com/sites/default/files//styles/home_focus_1_2_page/public/hero/img_8671-2.jpg?itok=qPME-k2D&amp;c=8bd4087cd00b382556513d19e13e9d2b"
+                                                                                alt=""></a>
+                                                                        <h2 class="title-section">Notre groupe</h2>
+                                                                        <h3 class="title-block">Notre production en
+                                                                            France</h3>
+                                                                        <p>Nous greffons entre 12 et 15 millions de
+                                                                            plants de vignes par an. Nos différents
+                                                                            sites de production de matériel végétal ont
+                                                                            été choisis soigneusement pour offrir la
+                                                                            meilleure qualité de bois à...</p>
+                                                                        <p class="node-readmore-icon "><a
+                                                                                href="https://www.pepinieres-guillaume.com/fr/notre-groupe/notre-production-en-france"><span
+                                                                                    class="glyphicon glyphicon-plus"
+                                                                                    aria-hidden="true"></span></a></p>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div>
+                                                                    <div
+                                                                        about="/fr/savoir-faire-et-rd/mycorhizes-et-trichodermas"
+                                                                        typeof="foaf:Document"
+                                                                        class="ds-1col node node-page node-promoted view-mode-home_teaser_small  clearfix">
+
+
+                                                                        <a href="/fr/savoir-faire-et-rd/mycorhizes-et-trichodermas"><img
+                                                                                typeof="foaf:Image"
+                                                                                class="img-responsive"
+                                                                                src="https://www.pepinieres-guillaume.com/sites/default/files//styles/home_focus_1_3_page/public/hero/105-img_6269.jpg?itok=hD_Irez-&amp;c=97290856e84ab6deb135a1ea93ba913b"
+                                                                                alt=""></a>
+                                                                        <h2 class="title-section">Savoir-faire et R&amp;D</h2>
+                                                                        <h3 class="title-block">Mycorhizes et
+                                                                            trichodermas</h3>
+                                                                        <p>Mychorizes et Trichodermas sont associés
+                                                                            selon un procédé exclusif pour renforcer le
+                                                                            développement de la plante et lui donner de
+                                                                            meilleures défenses contre les champignons
+                                                                            pathogènes des maladies...</p>
+                                                                        <p class="node-readmore-icon "><a
+                                                                                href="https://www.pepinieres-guillaume.com/fr/savoir-faire-et-rd/mycorhizes-et-trichodermas"><span
+                                                                                    class="glyphicon glyphicon-plus"
+                                                                                    aria-hidden="true"></span></a></p>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div>
+                                                                    <div
+                                                                        about="/fr/notre-groupe/guillaume-partenaire-de-confiance-et-de-reference-du-monde-viticole"
+                                                                        typeof="foaf:Document"
+                                                                        class="ds-1col node node-page node-promoted view-mode-home_teaser_small  clearfix">
+
+
+                                                                        <a href="/fr/notre-groupe/guillaume-partenaire-de-confiance-et-de-reference-du-monde-viticole"><img
+                                                                                typeof="foaf:Image"
+                                                                                class="img-responsive"
+                                                                                src="https://www.pepinieres-guillaume.com/sites/default/files//styles/home_focus_1_3_page/public/hero/052-img_6079.jpg?itok=hyvXfgTh&amp;c=d15470e0ab7007f476368d5abd7d7259"
+                                                                                alt=""></a>
+                                                                        <h2 class="title-section">Notre groupe</h2>
+                                                                        <h3 class="title-block">Guillaume, partenaire de
+                                                                            confiance et de référence du monde
+                                                                            viticole</h3>
+                                                                        <p>Partenaire privilégié des viticulteurs
+                                                                            d'avenir, nous produisons une large gamme de
+                                                                            plants de vigne adaptés aux exigences des
+                                                                            terroirs du monde entier.&nbsp;Nos
+                                                                            productions sont issues de sélections...</p>
+                                                                        <p class="node-readmore-icon "><a
+                                                                                href="https://www.pepinieres-guillaume.com/fr/notre-groupe/guillaume-partenaire-de-confiance-et-de-reference-du-monde-viticole"><span
+                                                                                    class="glyphicon glyphicon-plus"
+                                                                                    aria-hidden="true"></span></a></p>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div>
+                                                                    <div
+                                                                        about="/fr/savoir-faire-et-rd/qualite-tracabilite"
+                                                                        typeof="foaf:Document"
+                                                                        class="ds-1col node node-page node-promoted view-mode-home_teaser_small  clearfix">
+
+
+                                                                        <a href="/fr/savoir-faire-et-rd/qualite-tracabilite"><img
+                                                                                typeof="foaf:Image"
+                                                                                class="img-responsive"
+                                                                                src="https://www.pepinieres-guillaume.com/sites/default/files//styles/home_focus_1_3_page/public/hero/img_8488.jpg?itok=XdUdkvKl&amp;c=7151f7f0269e497194e2d2a91cc36e99"
+                                                                                alt=""></a>
+                                                                        <h2 class="title-section">Savoir-faire et R&amp;D</h2>
+                                                                        <h3 class="title-block">Qualité &amp;
+                                                                            traçabilité</h3>
+                                                                        <p>Dotés depuis plus de 12 ans d'un service
+                                                                            qualité intégré, nous appliquons à
+                                                                            l'intégralité de nos processus de
+                                                                            fabrication d'un plant de vigne les normes
+                                                                            de <strong>certification ISO</strong>.&nbsp;...
+                                                                        </p>
+                                                                        <p class="node-readmore-icon "><a
+                                                                                href="https://www.pepinieres-guillaume.com/fr/savoir-faire-et-rd/qualite-tracabilite"><span
+                                                                                    class="glyphicon glyphicon-plus"
+                                                                                    aria-hidden="true"></span></a></p>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            <div
+                                class="panels-flexible-row panels-flexible-row-homepage-3 panels-flexible-row-last clearfix ">
+                                <div
+                                    class="inside panels-flexible-row-inside panels-flexible-row-homepage-3-inside panels-flexible-row-inside-last clearfix">
+                                    <div
+                                        class="panels-flexible-region panels-flexible-region-homepage-contenu_suppl__mentaire panels-flexible-region-first panels-flexible-region-last ">
+                                        <div
+                                            class="inside panels-flexible-region-inside panels-flexible-region-homepage-contenu_suppl__mentaire-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+                                            <h2 class="element-invisible pane-title">Block actu</h2>
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>, and <a href="https://envoyer.io" class="underline">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline">Telescope</a>, and more.
+
+                                            <div
+                                                class="view view-last-news-block view-id-last_news_block view-display-id-block view-dom-id-351de2b550733da67b3f1219605bf769">
+
+
+                                                <div class="view-content">
+                                                    <div>
+                                                        <!-- debut node news -->
+                                                        <article class="news">
+                                                            <figure class="blc-haut"><img typeof="foaf:Image"
+                                                                                          class="img-responsive"
+                                                                                          src="https://www.pepinieres-guillaume.com/sites/default/files//styles/image_1170/public/hero/actu_-_viticulture_ternoveo_1_ok_1.jpg?itok=blbGykPg"
+                                                                                          width="747" height="560"
+                                                                                          alt=""></figure>
+                                                            <div
+                                                                class="blc-news col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12">
+                                                                <h3 class="title-section-news">Information</h3><span
+                                                                    class="date-display-single" property="dc:date"
+                                                                    datatype="xsd:dateTime"
+                                                                    content="2022-09-30T00:00:00+02:00">30. septembre 2022</span>
+                                                                <h2 class="title-block title-news"><a
+                                                                        href="/fr/actualite/un-vin-des-hauts-de-france-signe-ternoveo-bientot-sur-les-tables">Un
+                                                                        vin des Hauts-de-France signé Ternoveo bientôt
+                                                                        sur les tables</a></h2>
+                                                                <p>L’entreprise de négoce Ternoveo suit avec attention
+                                                                    les vendanges de dix-huit premiers hectares de
+                                                                    vignes plantées dans la région avec l’objectif d’en
+                                                                    fabriquer du vin et de commercialiser 40 000
+                                                                    bouteilles en 2023. </p>
+                                                                <p>Depuis le 22 septembre et jusqu’aux premiers jours
+                                                                    d’octobre, c’est (...<a
+                                                                        href="/fr/actualite/un-vin-des-hauts-de-france-signe-ternoveo-bientot-sur-les-tables"
+                                                                        class="more-link">Lire la suite</a></p></div>
+                                                        </article>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="more-link">
+                                                    <a href="/fr/actualite">
+                                                        Toute l'actualité </a>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
-                    <div class="text-center text-sm text-gray-500 sm:text-left">
-                        <div class="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="-mt-px w-5 h-5 text-gray-400">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                            </svg>
+                </section>
+            </div>
 
-                            <a href="https://laravel.bigcartel.com" class="ml-1 underline">
-                                Shop
-                            </a>
+        </section>
+    </div>
+</main>
 
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ml-4 -mt-px w-5 h-5 text-gray-400">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                            </svg>
+<footer class="footer container-fluid">
+    <div class="region region-footer">
+        <section id="block-block-13" class="block block-block  block-block-13 clearfix">
 
-                            <a href="https://github.com/sponsors/taylorotwell" class="ml-1 underline">
-                                Sponsor
-                            </a>
+
+            <div id="call-me-block" class="col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-2 cboxElement"><a
+                    href="#block-webform-client-block-89" target="_self"><img alt="" class="img-responsive"
+                                                                              src="/sites/default/files/CTA_fr.png"></a>
+                /fr/rappelez-moi-remind-me-recuerdame-ricordami
+            </div>
+        </section>
+        <section id="block-panels-mini-bloc-footer" class="block block-panels-mini  clearfix">
+
+            <h2 class="block-title"></h2>
+            <h2 class="title block-title element-invisible">FOOTER : bloc complet pied de page</h2>
+
+
+            <div class="panel-flexible row clearfix" id="mini-panel-bloc_footer">
+                <div class="panel-flexible-inside row-inside">
+                    <div
+                        class="panels-flexible-column panels-flexible-column-row-3 panels-flexible-column-first col-xs-12 col-md-4 col-left">
+                        <div
+                            class="inside panels-flexible-column-inside panels-flexible-column-row-3-inside panels-flexible-column-inside-first">
+                            <div
+                                class="panels-flexible-region panels-flexible-region-row-gauche panels-flexible-region-first panels-flexible-region-last ">
+                                <div
+                                    class="inside panels-flexible-region-inside panels-flexible-region-row-gauche-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+                                    <div class="panel-pane pane-block pane-block-14">
+
+
+                                        <div class="pane-content">
+                                            <p><a href="/"><img class="footer_logo"
+                                                                src="{{asset('images/bg.png')}}" alt=""></a>
+                                            </p></div>
+
+
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div class="panels-flexible-column panels-flexible-column-row-1 col-xs-12 col-md-4 col-center">
+                        <div class="inside panels-flexible-column-inside panels-flexible-column-row-1-inside">
+                            <div
+                                class="panels-flexible-region panels-flexible-region-row-centre panels-flexible-region-first panels-flexible-region-last ">
+                                <div
+                                    class="inside panels-flexible-region-inside panels-flexible-region-row-centre-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+                                    <address class="panel-pane pane-block pane-block-8 clearfix">
+                                        <h2 class="element-invisible pane-title">Coordonnées</h2>
 
-                    <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+
+                                        <p class="address">70700 CHARCENNE - FRANCE<br>Tel: +33 (0)3 84 32 80 55<br><a
+                                                href="mailto:info@guillaume.fr">info@guillaume.fr</a></p>
+
+                                    </address>
+                                    <h2 class="element-invisible pane-title">Réseaux sociaux Footer</h2>
+
+
+                                    <div class="pane-content"><p>Suivez-nous sur les réseaux</p>
+                                        <ul id="reseaux_footer">
+                                            <li><a href="https://www.linkedin.com/company/pepiniere-guillaume"
+                                                   target="_blank"><img
+                                                        src="/sites/default/files/reseaux/005-social.svg"
+                                                        style="width: 30px; height: 30px;"></a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="panel-pane pane-menu-tree pane-menu-footer legal-notices">
+
+
+                                        <div class="pane-content">
+                                            <div
+                                                class="menu-block-wrapper menu-block-ctools-menu-footer-1 menu-name-menu-footer parent-mlid-0 menu-level-1">
+                                                <ul class="menu nav">
+                                                    <li class="first leaf menu-mlid-2014"><a
+                                                            href="/fr/mentions-legales">Mentions légales</a></li>
+                                                    <li class="last leaf menu-mlid-2015"><a
+                                                            href="/fr/credits">Crédits</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="panels-flexible-column panels-flexible-column-row-2 panels-flexible-column-last col-xs-12 col-md-4 col-right">
+                        <div
+                            class="inside panels-flexible-column-inside panels-flexible-column-row-2-inside panels-flexible-column-inside-last">
+                            <div
+                                class="panels-flexible-region panels-flexible-region-row-droite panels-flexible-region-first panels-flexible-region-last ">
+                                <div
+                                    class="inside panels-flexible-region-inside panels-flexible-region-row-droite-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+                                    <div class="panel-pane pane-block pane-mailchimp-signup-newsletter">
+
+                                        <h2 class="pane-title">
+                                            Newsletter </h2>
+
+
+                                        <div class="pane-content">
+                                            <form class="mailchimp-signup-subscribe-form" action="/" method="post"
+                                                  id="mailchimp-signup-subscribe-block-newsletter-form"
+                                                  accept-charset="UTF-8">
+                                                <div>
+                                                    <div class="mailchimp-signup-subscribe-form-description">Ne ratez
+                                                        aucun bon plant ! Abonnez-vous dès maintenant !
+                                                    </div>
+                                                    <div id="mailchimp-newsletter-216bee8b78-mergefields"
+                                                         class="mailchimp-newsletter-mergefields">
+                                                        <div
+                                                            class="form-item form-type-emailfield form-item-mergevars-EMAIL">
+                                                            <label class="control-label" for="edit-mergevars-email">Adresse
+                                                                de courriel <span class="form-required"
+                                                                                  title="Ce champ est requis.">*</span></label>
+                                                            <input class="form-control form-text form-email required"
+                                                                   type="email" id="edit-mergevars-email"
+                                                                   name="mergevars[EMAIL]" value="" size="25"
+                                                                   maxlength="128">
+                                                        </div>
+                                                    </div>
+                                                    <input type="hidden" name="form_build_id"
+                                                           value="form-arMIPubm5l_WUSAyRDkjlVWJh_zq6YiHUuxfOqW9RJM">
+                                                    <input type="hidden" name="form_id"
+                                                           value="mailchimp_signup_subscribe_block_newsletter_form">
+                                                    <div class="form-actions form-wrapper form-group" id="edit-actions">
+                                                        <button type="submit" id="edit-submit" name="op"
+                                                                value="Je m'abonne" class="btn btn-default form-submit">
+                                                            Je m'abonne
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+        </section>
+        <section id="block-webform-client-block-89" class="block block-webform  block-webform-client-block-89 clearfix">
+
+            <h2 class="block-title"></h2>
+            <h2 class="title block-title">Rappelez-moi / Remind me / Recuérdame / Ricordami</h2>
+
+
+            <form class="webform-client-form webform-client-form-89"
+                  action="/?2b35_name=57c43b985a03b0102c54c0a0c5_form" method="post" id="webform-client-form-89"
+                  accept-charset="UTF-8">
+                <div>
+                    <div class="webform-progressbar">
+
+
+                    </div>
+                    <div class="form-item form-type-textfield form-item-submitted-nom">
+                        <label class="control-label" for="edit-submitted-nom">Nom, Prénom, fonction <span
+                                class="form-required" title="Ce champ est requis.">*</span></label>
+                        <input required="required" class="form-control form-text required" type="text"
+                               id="edit-submitted-nom" name="submitted[nom]" value="" size="60" maxlength="128">
+                    </div>
+                    <div class="form-item form-type-textfield form-item-submitted-societe">
+                        <label class="control-label" for="edit-submitted-societe">Votre entreprise ou organisme</label>
+                        <input class="form-control form-text" type="text" id="edit-submitted-societe"
+                               name="submitted[societe]" value="" size="60" maxlength="128">
+                    </div>
+                    <div class="form-item form-type-textfield form-item-submitted-telephone">
+                        <label class="control-label" for="edit-submitted-telephone">Numéro de téléphone <span
+                                class="form-required" title="Ce champ est requis.">*</span></label>
+                        <input required="required" class="form-control form-text required" type="text"
+                               id="edit-submitted-telephone" name="submitted[telephone]" value="" size="60"
+                               maxlength="128">
+                    </div>
+                    <div class="form-item form-type-textarea form-item-submitted-objet-appel">
+                        <label class="control-label" for="edit-submitted-objet-appel">Objet de l'appel <span
+                                class="form-required" title="Ce champ est requis.">*</span></label>
+                        <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea"><textarea
+                                required="required" class="form-control form-textarea required"
+                                id="edit-submitted-objet-appel" name="submitted[objet_appel]" cols="60"
+                                rows="4"></textarea>
+                            <div class="grippie"></div>
+                        </div>
+                    </div>
+                    <div class="form-item form-type-textarea form-item-submitted-creneau-rappel">
+                        <label class="control-label" for="edit-submitted-creneau-rappel">Créneau de rappel souhaité
+                            <span class="form-required" title="Ce champ est requis.">*</span></label>
+                        <div class="form-textarea-wrapper"><textarea required="required"
+                                                                     class="form-control form-textarea required"
+                                                                     id="edit-submitted-creneau-rappel"
+                                                                     name="submitted[creneau_rappel]" cols="60"
+                                                                     rows="2"></textarea></div>
+                    </div>
+                    <div class="a2151_field"><span class="description"> (If you're a human, don't change the following field)</span>
+                        <div class="form-item form-type-textfield form-item-421-name">
+                            <label class="control-label" for="edit-421-name">Enter your name</label>
+                            <input class="a2151_field form-control form-text" autocomplete="off" title=""
+                                   data-toggle="tooltip" type="text" id="edit-421-name" name="421_name"
+                                   value="d95bf0cbfbd95" size="60" maxlength="128"
+                                   data-original-title="Your first name.">
+                        </div>
+                    </div>
+                    <noscript>Please enable Javascript to use this form.</noscript>
+                    <div class="af09e_field"><span class="description"> (If you're a human, don't change the following field)</span>
+                        <div class="form-item form-type-textfield form-item-6f0-name">
+                            <label class="control-label" for="edit-6f0-name">Enter your name</label>
+                            <input class="af09e_field form-control form-text" autocomplete="off"
+                                   style="font-family: &quot;a8a89ba99bb05fb889_form&quot;" title=""
+                                   data-toggle="tooltip" type="text" id="edit-6f0-name" name="6f0_name"
+                                   value="3dc76633dc" size="60" maxlength="128" data-original-title="Your first name.">
+                        </div>
+                    </div>
+                    <noscript>Please enable Javascript to use this form.</noscript>
+                    <div class="a2b35_field"><span class="description"> (If you're a human, don't change the following field)</span>
+                        <div class="form-item form-type-textfield form-item-botcha">
+                            <label class="control-label" for="edit-botcha">Enter your name</label>
+                            <input class="a2b35_field form-control form-text" autocomplete="off" title=""
+                                   data-toggle="tooltip" type="text" id="edit-botcha" name="botcha"
+                                   value="985a03c43b985" size="60" maxlength="128"
+                                   data-original-title="Your first name.">
+                        </div>
+                    </div>
+                    <noscript>Please enable Javascript to use this form.</noscript>
+                    <input type="hidden" name="details[sid]">
+                    <input type="hidden" name="details[page_num]" value="1">
+                    <input type="hidden" name="details[page_count]" value="1">
+                    <input type="hidden" name="details[finished]" value="0">
+                    <input type="hidden" name="form_build_id" value="form-jgFJCmPUuKXQIh7BnCMihkTzAZFQFZYjzJJYx2tvq9A">
+                    <input type="hidden" name="form_id" value="webform_client_form_89">
+                    <input type="hidden" name="timegate" value="1673614877">
+                    <input class="a2b35_field" type="hidden" name="92b_name" value="985c43b985">
+                    <div class="form-actions">
+                        <button class="webform-submit button-primary btn btn-primary form-submit" type="submit"
+                                name="op" value="Soumettre">Soumettre
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+</footer>
+<script
+    src="https://www.pepinieres-guillaume.com/sites/default/files//js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+
+
+<div id="sidr-0" class="sidr right">
+    <div class="sidr-inner">
+        <ul class="sidr-class-menu sidr-class-nav">
+            <li class="sidr-class-first sidr-class-leaf sidr-class-active sidr-class-menu-mlid-1247 sidr-class-active">
+                <a href="/fr" title="Pépinières Guillaume accueil" class="sidr-class-active">Accueil</a></li>
+            <li class="sidr-class-expanded sidr-class-menu-mlid-981 sidr-class-dropdown">
+                <div title="" class="sidr-class-dropdown-toggle sidr-class-nolink" data-toggle="dropdown" tabindex="0">
+                    Notre groupe <span class="sidr-class-caret"></span></div>
+                <ul class="sidr-class-dropdown-menu">
+                    <li class="sidr-class-first sidr-class-leaf sidr-class-menu-mlid-1418"><a
+                            href="/fr/notre-groupe/guillaume-partenaire-de-confiance-et-de-reference-du-monde-viticole">Une
+                            passion familiale de plus de 120 ans</a></li>
+                    <li class="sidr-class-leaf sidr-class-menu-mlid-893"><a
+                            href="/fr/notre-groupe/notre-production-en-france">Notre production en France</a></li>
+                    <li class="sidr-class-leaf sidr-class-menu-mlid-1242"><a
+                            href="/fr/notre-groupe/le-developpement-international-des-pepinieres-guillaume">Une renommée
+                            internationale</a></li>
+                    <li class="sidr-class-leaf sidr-class-menu-mlid-1810"><a href="/fr/actualite" title="">L'actualité
+                            du Groupe</a></li>
+                    <li class="sidr-class-last sidr-class-leaf sidr-class-menu-mlid-2189"><a
+                            href="/fr/mediatheque-images" title="">Médiathèque</a></li>
+                </ul>
+            </li>
+            <li class="sidr-class-expanded sidr-class-menu-mlid-1436 sidr-class-dropdown">
+                <div title="" class="sidr-class-dropdown-toggle sidr-class-nolink" data-toggle="dropdown" tabindex="0">
+                    Produits <span class="sidr-class-caret"></span></div>
+                <ul class="sidr-class-dropdown-menu">
+                    <li class="sidr-class-first sidr-class-leaf sidr-class-menu-mlid-2991"><a
+                            href="/fr/nos-produits/plantations" title="Plantations">Plantations</a></li>
+                    <li class="sidr-class-leaf sidr-class-menu-mlid-2992"><a
+                            href="/fr/nos-produits/plant-de-remplacement" title="Plant de remplacement">Plant de
+                            remplacement</a></li>
+                    <li class="sidr-class-last sidr-class-leaf sidr-class-menu-mlid-2993"><a
+                            href="/fr/nos-produits/innovations" title="Innovations">Innovations</a></li>
+                </ul>
+            </li>
+            <li class="sidr-class-expanded sidr-class-menu-mlid-1419 sidr-class-dropdown">
+                <div title="" class="sidr-class-dropdown-toggle sidr-class-nolink" data-toggle="dropdown" tabindex="0">
+                    Services <span class="sidr-class-caret"></span></div>
+                <ul class="sidr-class-dropdown-menu">
+                    <li class="sidr-class-first sidr-class-leaf sidr-class-menu-mlid-1422"><a
+                            href="/fr/services/taillage-des-racines">Taillages des racines</a></li>
+                    <li class="sidr-class-leaf sidr-class-menu-mlid-1421"><a
+                            href="/fr/services/traitement-l-eau-chaude">Traitement à l’eau chaude</a></li>
+                    <li class="sidr-class-last sidr-class-leaf sidr-class-menu-mlid-1420"><a
+                            href="/fr/services/plantation-mecanique-ou-manuelle">Plantation mécanique ou manuelle</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidr-class-expanded sidr-class-menu-mlid-650 sidr-class-dropdown">
+                <div title="" class="sidr-class-dropdown-toggle sidr-class-nolink" data-toggle="dropdown" tabindex="0">
+                    Savoir-faire et R&amp;D <span class="sidr-class-caret"></span></div>
+                <ul class="sidr-class-dropdown-menu">
+                    <li class="sidr-class-first sidr-class-leaf sidr-class-menu-mlid-1252"><a
+                            href="/fr/savoir-faire-et-rd/qualite-tracabilite">Qualité et traçabilité</a></li>
+                    <li class="sidr-class-leaf sidr-class-menu-mlid-1426"><a
+                            href="/fr/savoir-faire-et-rd/expertise-conseil">Expertise &amp; Conseil</a></li>
+                    <li class="sidr-class-leaf sidr-class-menu-mlid-1427"><a
+                            href="/fr/savoir-faire-et-rd/selections-massales">Sélections massales</a></li>
+                    <li class="sidr-class-leaf sidr-class-menu-mlid-1428"><a href="/fr/savoir-faire-et-rd/les-premunis">Les
+                            prémunis</a></li>
+                    <li class="sidr-class-leaf sidr-class-menu-mlid-1250"><a
+                            href="/fr/savoir-faire-et-rd/mycorhizes-et-trichodermas">Mycorhizes et trichodermas</a></li>
+                    <li class="sidr-class-last sidr-class-leaf sidr-class-menu-mlid-1429"><a
+                            href="/fr/savoir-faire-et-rd/programmes-de-recherche">Programmes de recherche</a></li>
+                </ul>
+            </li>
+            <li class="sidr-class-leaf sidr-class-menu-mlid-2058"><a href="/fr/nos-varietes">Nos variétés</a></li>
+            <li class="sidr-class-last sidr-class-collapsed sidr-class-menu-mlid-1869"><a
+                    href="/fr/un-projet-une-question-contactez-votre-conseiller-regional">Contactez-nous</a></li>
+        </ul>
+    </div>
+</div>
+<div id="cboxOverlay" style="display: none;"></div>
+<div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;">
+    <div id="cboxWrapper">
+        <div>
+            <div id="cboxTopLeft" style="float: left;"></div>
+            <div id="cboxTopCenter" style="float: left;"></div>
+            <div id="cboxTopRight" style="float: left;"></div>
         </div>
-    </body>
+        <div style="clear: left;">
+            <div id="cboxMiddleLeft" style="float: left;"></div>
+            <div id="cboxContent" style="float: left;">
+                <div id="cboxTitle" style="float: left;"></div>
+                <div id="cboxCurrent" style="float: left;"></div>
+                <button type="button" id="cboxPrevious"></button>
+                <button type="button" id="cboxNext"></button>
+                <button type="button" id="cboxSlideshow"></button>
+                <div id="cboxLoadingOverlay" style="float: left;"></div>
+                <div id="cboxLoadingGraphic" style="float: left;"></div>
+            </div>
+            <div id="cboxMiddleRight" style="float: left;"></div>
+        </div>
+        <div style="clear: left;">
+            <div id="cboxBottomLeft" style="float: left;"></div>
+            <div id="cboxBottomCenter" style="float: left;"></div>
+            <div id="cboxBottomRight" style="float: left;"></div>
+        </div>
+    </div>
+    <div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div>
+</div>
+</body>
 </html>
