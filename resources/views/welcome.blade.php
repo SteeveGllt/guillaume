@@ -480,7 +480,8 @@
     <div style="background-color: white; width: 30vw; margin-left: 45em; border: solid darkgray 1px; margin-top: 15em">
         <div style="text-align: center; font-size: 200%; margin-top: 1em">S'inscrire</div>
         <div style="display: flex; align-content: center; justify-content: center;">
-            <form style="display: flex; flex-direction: column; padding: 2em 3em 3em; width: 24vw;">
+            <form style="display: flex; flex-direction: column; padding: 2em 3em 3em; width: 24vw;" action="{{route('login')}}" method="post">
+                @csrf
                 <label>Nom : </label>
                 <input name="name" type="text">
                 <label>Prénom : </label>
