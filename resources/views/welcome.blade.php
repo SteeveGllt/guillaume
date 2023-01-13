@@ -473,7 +473,28 @@
 
 
 </head>
-<body class="html front not-logged-in no-sidebars page-homepage i18n-fr">
+<body class="html front not-logged-in no-sidebars page-homepage i18n-fr" style="overflow: hidden;">
+
+
+<div style="backdrop-filter: blur(5px); width:100vw ; height: 100vh; position: absolute; z-index: 30;">
+    <div style="background-color: white; width: 30vw; margin-left: 45em; border: solid darkgray 1px; margin-top: 15em">
+        <div style="text-align: center; font-size: 200%; margin-top: 1em">S'inscrire</div>
+        <div style="display: flex; align-content: center; justify-content: center;">
+            <form style="display: flex; flex-direction: column; padding: 2em 3em 3em; width: 24vw;">
+                <label>Nom d'utilisateur : </label>
+                <input type="text">
+                <label>Courriel :</label>
+                <input name="email" type="email">
+                <label>Mot de passe :</label>
+                <input name="password" type="password">
+                <label>Confirmez le mot de passe :</label>
+                <input type="password">
+                <button style="margin-top: 2em; width: 50%; margin-left: 5em">S'inscrire</button>
+            </form>
+        </div>
+    </div>
+</div>
+
 <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable">Aller au contenu principal</a>
 </div>
